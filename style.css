@@ -1,0 +1,51 @@
+/* Justificam tot el contingut de la pagina al centre. */
+body{
+    
+    justify-content: center;
+    align-items: center;  
+}
+/* Posem el titol amb color vermell i negreta */
+h1{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+/*Eliminem la separacio de les caselles i hi posem un borde negre solid */
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+caption{
+    color: blue;
+    margin-bottom: 3vh;
+
+
+}
+/* Posem color de fons als títols de la taula, posem contron negre i centrem el text. Alhora deixem el text en negreta i afegim padding */
+th{
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Posem un borde negre i un marge entre celes, ademés centrem el text */
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 43%;
+    
+}
