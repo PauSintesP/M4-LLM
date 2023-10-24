@@ -1,0 +1,11 @@
+* {
+
+}
+body {
+    justify-content: center;
+    align-items: center;
+}
+form {
+    background-color: antiquewhite;
+    padding-left: 25vw;
+}
