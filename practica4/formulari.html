@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Subscriu-te a les nostres noticies</title>
+        <link rel="stylesheet" href="./fitxer.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Omple el seguent formulari per donar-te d'alta</h2>
+
+        <div>
+            <form action="formulari_enviat.html">
+
+                <!--  ESPAI PER AL NOM I COGNOM-->
+                <label required for="nomCognoms">Nom i Cognoms:</label><br>
+                <input id="nomCognoms"type="text"required><br>
+                <!-- ESPAI PER AL CORREU ELECTRONIC -->
+                <label for="Adreça">Adreça electrònica</label><br>
+                <input  id ="Adreça" type="email" name="correu" placeholder="exemple@exemple.com"required><br>
+
+                <!-- ESPAI PER ESPAI NÚMERIC ( EDAT )-->
+                <label for="edat">Edat</label><br>
+                <input type="number" id="edat" placeholder="18"required> <br>
+                <label for="opcion">Génere</label><br>
+                <select id="opcio" name="opcio" required><br>
+                    <option value="opcio1">Masculí</option>
+                    <option value="opcio2">Femeni</option>
+                    <option value="opcio3">No Binari</option>
+                    <option value="opcio3">Un altre</option>
+                </select> <br>
+                <!--ESPAI PER ENTRADA DE TEXT LLARG-->
+                <label for="informacion">Información Adicional:</label><br>
+                <textarea id="informacion" name="informacion" rows="5" cols="50" required ></textarea><br>
+
+                <!--ESPAI PER ALS CHECKBOXS-->
+
+                <input type="checkbox" id="cookies-necesarias" name="cookies" value="necesarias"required checked>
+                <label for="cookies-necesarias">Cookies necesarias</label>
+                
+                <input type="checkbox" id="cookies-analíticas" name="cookies" value="analíticas"required>
+                <label for="cookies-analíticas">Cookies analíticas</label>
+                
+                <input type="checkbox" id="cookies-de-marketing" name="cookies" value="marketing"required>
+                <label for="cookies-de-marketing">Cookies de marketing</label> <br>
+                
+
+
+                <!--  ESPAI PER ALS CHECKBOX RODONS-->
+                <h3>Interesos</h3>
+                <input id="" type="radio" name="interès" value="tecnologia"required>
+                <label for="tecnologia">Tecnologia</label>
+
+                <input type="radio" name="interès" value="esport" Checked required>
+                <label for="esport">Esport</label>
+            
+                <input type="radio" name="interès" value="lleure" required>
+                <label for="lleure">Lleure</label> <br>
+            
+                <input class="send" type="submit" value="Enviar">
+
+            
+
+            </form>
+        </div>
+    </body>
+</html>

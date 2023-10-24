@@ -1,0 +1,69 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+h2{
+    text-align: center;
+}
+
+div {
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+
+    
+}
+
+form , .enviat{
+    text-align: center;
+    background-color: rgba(109, 201, 224, 0.726);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+input, select {
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+}
+
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.send {
+    background-color:rgba(0, 136, 247, 0.548);
+    color: white;
+    padding: 15px 30px;
+    margin-top: 17px;
+    font-size: 15px;
+    
+}
+
+.send:hover{
+    background-color:rgba(112, 154, 189, 0.644);
+    color: black;
+}
+
+#Adreça {
+    width: 300px;
+}
+
+#edat{
+    width: 100px;
+}
+
+
